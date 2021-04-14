@@ -12,8 +12,6 @@ class MenuOpciones : AppCompatActivity() {
         val button: Button = findViewById(R.id.btnActividades)
         val button2: Button = findViewById(R.id.btnRecomendaciones)
         val button3: Button = findViewById(R.id.btnHabitoTrabajar)
-        val button4: Button = findViewById(R.id.btnRitual)
-        val button5: Button = findViewById(R.id.btnUsuario)
 
         button.setOnClickListener {
             var intent : Intent = Intent(this, CatalogoActividades:: class.java)
@@ -26,16 +24,6 @@ class MenuOpciones : AppCompatActivity() {
 
         button3.setOnClickListener {
             var intent : Intent = Intent(this, HabitoTrabajarActivity:: class.java)
-            startActivity(intent)
-        }
-
-        button4.setOnClickListener {
-            var intent : Intent = Intent(this, RitualMatutinoActivity:: class.java)
-            startActivity(intent)
-        }
-
-        button5.setOnClickListener {
-            var intent : Intent = Intent(this, UsuarioActivity:: class.java)
             startActivity(intent)
         }
     }

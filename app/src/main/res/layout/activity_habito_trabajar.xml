@@ -5,9 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="40dp"
-    android:paddingRight="40dp"
-    android:paddingTop="30dp"
+    android:padding="40dp"
     android:background="@color/fondo"
     tools:context=".HabitoTrabajarActivity">
 
@@ -228,9 +226,9 @@
             android:id="@+id/btnCompartir"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
             android:layout_marginTop="80dp"
-            android:gravity="center"
-            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="95dp"
             android:backgroundTint="@color/btnFuerte"
             android:text="@string/btn_compartir_cita"
             android:textAllCaps="false"
@@ -240,18 +238,11 @@
     </RelativeLayout>
 
 
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="center">
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="100dp"
-            android:layout_height="115dp"
-            android:layout_gravity="center_horizontal"
-            app:srcCompat="@drawable/solecito" />
-
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/solecito" />
 
 </LinearLayout>

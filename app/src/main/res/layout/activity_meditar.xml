@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="40dp"
     android:background="@color/fondo"
     tools:context=".MeditarActivity">
 
@@ -22,22 +23,15 @@
     <GridView
         android:id="@+id/gridviewMeditar"
         android:layout_width="match_parent"
-        android:layout_height="560dp"
+        android:layout_height="487dp"
         android:numColumns="1"
         android:padding="20dp" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:layout_marginTop="-30dp">
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="100dp"
-            android:layout_height="115dp"
-            android:layout_gravity="center_horizontal"
-            app:srcCompat="@drawable/solecito" />
-
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/solecito" />
 
 </LinearLayout>

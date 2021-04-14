@@ -32,7 +32,7 @@
         android:textColorHighlight="@color/cafecito"
         android:inputType="text"
         android:layout_marginTop="15dp"
-        android:textColor="@color/titulos"/>
+        android:textColor="@color/grisClaro"/>
 
     <EditText
         android:id="@+id/edit_email"

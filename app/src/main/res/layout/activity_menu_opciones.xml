@@ -8,13 +8,12 @@
     android:orientation="vertical"
     tools:context=".MenuOpciones">
     <ImageView
-        android:id="@+id/imageViewUsuario"
+        android:id="@+id/imageView5"
         android:layout_width="60dp"
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
-        app:srcCompat="@drawable/ic_baseline_person_24"
-        app:tint="@color/black" />
+        app:srcCompat="@drawable/ic_baseline_person_24" />
 
     <TextView
         android:id="@+id/titulo"
@@ -75,7 +74,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="65dp"
         android:text="@string/tus_rutinas"
-        android:textColor="@color/grisClaro"
         android:textSize="17sp" />
     <TextView
         android:id="@+id/hoy"
@@ -84,8 +82,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="185dp"
         android:text="@string/hoy"
-        android:textSize="25sp"
-        android:textColor="@color/grisClaro"/>
+        android:textSize="25sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -107,18 +104,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:text="@string/hora"
-            android:textColor="@color/grisClaro"/>
+            android:text="@string/hora" />
 
     </LinearLayout>
     <Button
-        android:id="@+id/btnRitualMatutino"
+        android:id="@+id/button2"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_gravity="right"
         android:layout_marginTop="0dp"
         android:layout_marginRight="20dp"
-        android:backgroundTint="@color/titulos"
+        android:backgroundTint="@color/btnFuerte"
         android:text="@string/ritual_matutino"
         android:textColor="@color/white"
         app:cornerRadius="40dp"
@@ -129,8 +125,8 @@
         android:id="@+id/imageView3"
         android:layout_width="100dp"
         android:layout_height="115dp"
-        android:layout_marginTop="35dp"
-        android:layout_gravity="center_horizontal"
-        app:srcCompat="@drawable/solecito"  />
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/solecito" />
 
 </LinearLayout>
